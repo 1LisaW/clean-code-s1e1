@@ -21,9 +21,11 @@
 }
 
 @media (max-width:768px) {
+
   .page__head {
     text-align: center;
   }
+  
 }
 
 .page__tasks {
