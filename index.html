@@ -9,53 +9,59 @@
 </head>
 
 <body class ="page">
-  <div class="header page__head">
+  <header class="header page__head">
     <img class="tasks-block__img"  src="./eisenhower-matrix.jpg">
     <a class="header__more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">
         Want more details?</a>
-  </div>
-  <div class="tasks-block page__tasks">
-    <p id="add-block">
-      <label for="new-task" class="tasks-block__label">Add Item</label>
-      <div class="tasks-block__row">
-        <input id="new-task" class="tasks-block__task tasks-block__input-text" type="text">
-        <button class="page__button">Add</button>
-      </div>
-    </p>
-    <h3 class="tasks-block__header">Todo</h3>
-    <ul id="incomplete-tasks" class="tasks-block__list">
-      <li class="tasks-block__list-item">
-        <input class="tasks-block__input-checkbox" type="checkbox">
-        <label class="tasks-block__task tasks-block__label">Pay Bills</label>
-        <input type="text" class="tasks-block__task tasks-block__input-text">
-        <button class="tasks-block__edit-btn page__button">Edit</button>
-        <button class="tasks-block__del-btn page__button">
-          <img class="tasks-block__img" src="./remove.svg">
-        </button>
-      </li>
-      <li class="tasks-block__edit-mode tasks-block__list-item">
-        <input class="tasks-block__input-checkbox" type="checkbox">
-        <label class="tasks-block__task tasks-block__label">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="tasks-block__task tasks-block__input-text">
-        <button class="tasks-block__edit-btn page__button">Save</button>
-        <button class="tasks-block__del-btn page__button">
-          <img class="tasks-block__img" src="./remove.svg">
-        </button>
-      </li>
-    </ul>
-    <h3 class="tasks-block__header">Completed</h3>
-    <ul id="completed-tasks" class="tasks-block__list">
-      <li class="tasks-block__list-item">
-        <input class="tasks-block__input-checkbox" type="checkbox" checked>
-        <label class="tasks-block__task tasks-block__label">See the Doctor</label>
-        <input type="text" class="tasks-block__task tasks-block__input-text">
-        <button class="tasks-block__edit-btn page__button">Edit</button>
-        <button class="tasks-block__del-btn page__button">
-          <img class="tasks-block__img" src="./remove.svg">
-        </button>
-      </li>
-    </ul>
-  </div>
+  </header>
+  <main class="tasks-block page__tasks">
+    <article>
+      <section id="add-block">
+        <label for="new-task" class="tasks-block__label">Add Item</label>
+        <section class="tasks-block__row">
+          <input id="new-task" class="tasks-block__task tasks-block__input-text" type="text">
+          <button class="page__button">Add</button>
+        </section>
+      </section>
+      <section>
+        <h3 class="tasks-block__header">Todo</h3>
+        <ul id="incomplete-tasks" class="tasks-block__list">
+          <li class="tasks-block__list-item">
+            <input class="tasks-block__input-checkbox" type="checkbox">
+            <label class="tasks-block__task tasks-block__label">Pay Bills</label>
+            <input type="text" class="tasks-block__task tasks-block__input-text">
+            <button class="tasks-block__edit-btn page__button">Edit</button>
+            <button class="tasks-block__del-btn page__button">
+              <img class="tasks-block__img" src="./remove.svg">
+            </button>
+          </li>
+          <li class="tasks-block__edit-mode tasks-block__list-item">
+            <input class="tasks-block__input-checkbox" type="checkbox">
+            <label class="tasks-block__task tasks-block__label">Go Shopping</label>
+            <input type="text" value="Go Shopping" class="tasks-block__task tasks-block__input-text">
+            <button class="tasks-block__edit-btn page__button">Save</button>
+            <button class="tasks-block__del-btn page__button">
+              <img class="tasks-block__img" src="./remove.svg">
+            </button>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h3 class="tasks-block__header">Completed</h3>
+        <ul id="completed-tasks" class="tasks-block__list">
+          <li class="tasks-block__list-item">
+            <input class="tasks-block__input-checkbox" type="checkbox" checked>
+            <label class="tasks-block__task tasks-block__label">See the Doctor</label>
+            <input type="text" class="tasks-block__task tasks-block__input-text">
+            <button class="tasks-block__edit-btn page__button">Edit</button>
+            <button class="tasks-block__del-btn page__button">
+              <img class="tasks-block__img" src="./remove.svg">
+            </button>
+          </li>
+        </ul>
+      </section>
+    </article>
+  </main>
   <script type="text/javascript" src="app.js"></script>
 </body>
 
