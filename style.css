@@ -50,12 +50,12 @@
 }
 
 .tasks-block__list-item,.tasks-block__header {
-  list-style:none;
+  list-style :none;
 }
 
 .tasks-block__input-text,.tasks-block__input-checkbox,
 .page__button {
-  outline:none;
+  outline :none;
 }
 
 .page__button {
@@ -63,7 +63,7 @@
   border: 0px;
   color: #888;
   font-size: 15px;
-  width:60px;
+  width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
