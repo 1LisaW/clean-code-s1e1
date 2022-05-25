@@ -49,11 +49,13 @@
   padding: 0px;
 }
 
-.tasks-block__list-item,.tasks-block__header {
+.tasks-block__list-item,
+.tasks-block__header {
   list-style :none;
 }
 
-.tasks-block__input-text,.tasks-block__input-checkbox,
+.tasks-block__input-text,
+.tasks-block__input-checkbox,
 .page__button {
   outline :none;
 }
@@ -73,7 +75,8 @@
 }
 
 /* Heading */
-.tasks-block__header,.tasks-block__label[for="new-task"] {
+.tasks-block__header,
+.tasks-block__label[for="new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
