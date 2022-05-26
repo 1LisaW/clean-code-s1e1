@@ -19,7 +19,7 @@ var createNewTaskElement = function (taskString) {
 
   //input (checkbox)
   var checkBox = document.createElement("input"); //checkbx
-  checkBox.className = "tasks-block__input-checkbox";
+  checkBox.className = "tasks-block__input tasks-block__input_checkbox";
 
   //label
   var label = document.createElement("label"); //label
@@ -40,7 +40,7 @@ var createNewTaskElement = function (taskString) {
   checkBox.type = "checkbox";
   // checkBox.className = "tasks-block__task";
   editInput.type = "text";
-  editInput.className = "tasks-block__task tasks-block__input-text";
+  editInput.className = "tasks-block__task tasks-block__input tasks-block__input_text";
 
   editButton.innerText = "Edit"; //innerText encodes special characters, HTML does not.
   editButton.className = "tasks-block__edit-btn page__button";
